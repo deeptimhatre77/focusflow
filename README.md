@@ -24,23 +24,25 @@ The application is deployed on Vercel:
 
 ## Screenshots
 
-Screenshots are stored inside:
+Screenshots are stored inside the root-level:
 
 ```
-public/assets/
+assets/
 ```
 
 Example:
 
 ```
-public/assets/focusflow-ui.png
+assets/focusflow-ui.png
 ```
 
 To display screenshots in the README, use:
 
 ```markdown
-![FocusFlow UI](public/assets/focusflow-ui.png)
+![FocusFlow UI](assets/focusflow-ui.png)
 ```
+
+![FocusFlow UI](assets/focusflow-ui.png)
 
 ## Features
 
@@ -70,10 +72,10 @@ focusflow/
 ├── node_modules/
 ├── dist/
 │
+├── assets/
+│   └── focusflow-ui.png
+│
 ├── public/
-│   ├── assets/
-│   │   └── screenshots of UI
-│   │
 │   ├── web-app-manifest-192x192.png
 │   ├── web-app-manifest-512x512.png
 │   ├── site.webmanifest
