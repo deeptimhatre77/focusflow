@@ -1,0 +1,98 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Dark mode */
+.dark {
+  background: #111827;
+  color: white;
+}
+
+/* App container */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  position: relative;
+}
+
+/* Theme toggle top right */
+.theme-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  background: #e5e7eb;
+  font-weight: 600;
+}
+
+/* Timer text */
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  gap: 15px;
+}
+
+.controls button {
+  padding: 10px 22px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.controls button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.start {
+  background: #22c55e;
+  color: white;
+}
+
+.pause {
+  background: #facc15;
+  color: black;
+}
+
+.reset {
+  background: #ef4444;
+  color: white;
+}
+
+/* Duration input */
+.duration-input input {
+  padding: 8px;
+  width: 160px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+/* Center SVG properly */
+svg {
+  display: block;
+}
