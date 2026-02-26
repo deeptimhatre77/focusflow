@@ -6,10 +6,8 @@
 </p>
 
 <p align="center">
-  <a href="https://your-vercel-url.vercel.app" target="_blank"><strong>Live Demo</strong></a>
+  <a href="https://focusflow-app-rho.vercel.app/" target="_blank"><strong>Live Demo</strong></a>
 </p>
-
----
 
 ## Overview
 
@@ -18,16 +16,11 @@ Built with React and powered by Vite, the application emphasizes performance, si
 
 The project demonstrates component-based architecture, custom hooks, scalable folder structure, and professional deployment workflow.
 
----
-
 ## Live Demo
 
-The application is deployed on Vercel.
+The application is deployed on Vercel:
 
-Production URL:
-https://your-vercel-url.vercel.app
-
----
+[https://focusflow-app-rho.vercel.app/](https://focusflow-app-rho.vercel.app/)
 
 ## Screenshots
 
@@ -43,13 +36,11 @@ Example:
 public/assets/focusflow-ui.png
 ```
 
-To display screenshots in this README, add:
+To display screenshots in the README, use:
 
 ```markdown
 ![FocusFlow UI](public/assets/focusflow-ui.png)
 ```
-
----
 
 ## Features
 
@@ -62,8 +53,6 @@ To display screenshots in this README, add:
 - Custom favicon and PWA-ready manifest setup
 - Optimized production build via Vite
 
----
-
 ## Tech Stack
 
 - React
@@ -72,8 +61,6 @@ To display screenshots in this README, add:
 - CSS
 - Node.js & npm
 - ESLint
-
----
 
 ## Project Structure
 
@@ -123,8 +110,6 @@ focusflow/
 └── vite.config.js
 ```
 
----
-
 ## Getting Started
 
 ### 1. Clone the Repository
@@ -158,14 +143,12 @@ npm run build
 npm run preview
 ```
 
----
-
 ## Favicon & Branding
 
 Custom favicon and platform icons were created using:
 
 - Canva (icon design)
-- https://realfavicongenerator.net/ (multi-platform favicon generation)
+- [RealFaviconGenerator](https://realfavicongenerator.net/) (multi-platform favicon generation)
 
 This ensures compatibility across:
 
@@ -173,8 +156,6 @@ This ensures compatibility across:
 - Android devices
 - iOS devices
 - Progressive Web App environments
-
----
 
 ## Deployment
 
@@ -186,8 +167,6 @@ Deployment process:
 2. Import project into Vercel
 3. Deploy with default Vite configuration
 
----
-
 ## Development Highlights
 
 - Modular component architecture
@@ -196,7 +175,13 @@ Deployment process:
 - Scalable folder structure
 - Production-ready asset configuration
 
----
+## Future Improvements
+
+- Add Pomodoro short/long break timers
+- Add customizable themes and animations
+- Improve mobile responsiveness further
+- Add analytics to track focus sessions
+- Integrate with user accounts for saving progress
 
 ## License
 
