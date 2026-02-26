@@ -1,147 +1,81 @@
-# FocusFlow ⏳
+# FocusFlow
 
-A clean, modern, and minimal Pomodoro timer built using React + Vite.
+<p align="center">
+  <strong>A modern, minimalist focus timer built with React and Vite.</strong><br/>
+  Designed to improve productivity through clean UI and intentional time management.
+</p>
 
-Stay focused. Take breaks. Build momentum.
-
----
-
-# 📌 Overview
-
-FocusFlow is a productivity timer based on the Pomodoro Technique.
-It allows users to switch between Focus, Short Break, and Long Break sessions with customizable durations, dark mode support, persistent settings, and smooth UI animations.
-
-This project was built from scratch using Vite and React, then enhanced with modern UI practices, persistent storage, and Progressive Web App (PWA) configuration.
+<p align="center">
+  <a href="https://your-vercel-url.vercel.app" target="_blank"><strong>Live Demo</strong></a>
+</p>
 
 ---
 
-# 🧠 What is the Pomodoro Technique?
+## Overview
 
-The Pomodoro Technique is a time management method that breaks work into focused intervals followed by short breaks.
+FocusFlow is a productivity-focused web application designed to help users manage work sessions efficiently.  
+Built with React and powered by Vite, the application emphasizes performance, simplicity, and a distraction-free interface.
 
-Learn more:
-https://en.wikipedia.org/wiki/Pomodoro_Technique
-
----
-
-# 🚀 How This Project Was Created (From Scratch)
-
-## 1️⃣ Create Vite + React Project
-
-```bash
-npm create vite@latest focusflow
-```
-
-Choose:
-- Framework: React
-- Variant: JavaScript
-
-Then:
-
-```bash
-cd focusflow
-npm install
-```
+The project demonstrates component-based architecture, custom hooks, scalable folder structure, and professional deployment workflow.
 
 ---
 
-## 2️⃣ Install Required Dependencies
+## Live Demo
 
-### Lucide Icons
-```bash
-npm install lucide-react
+The application is deployed on Vercel.
+
+Production URL:
+https://your-vercel-url.vercel.app
+
+---
+
+## Screenshots
+
+Screenshots are stored inside:
+
+```
+public/assets/
 ```
 
-### Framer Motion
-```bash
-npm install framer-motion
+Example:
+
+```
+public/assets/focusflow-ui.png
 ```
 
-### Tailwind CSS
-```bash
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
+To display screenshots in this README, add:
+
+```markdown
+![FocusFlow UI](public/assets/focusflow-ui.png)
 ```
 
 ---
 
-## 3️⃣ Run Development Server
+## Features
 
-```bash
-npm run dev
-```
-
-App runs locally at:
-http://localhost:5173/
-
----
-
-## 4️⃣ Build Production Version
-
-```bash
-npm run build
-```
-
-Preview production build:
-
-```bash
-npm run preview
-```
-
-This generates optimized files inside the `dist/` folder.
+- Custom focus timer logic using a reusable hook (`useTimer`)
+- Interactive duration input controls
+- Circular progress visualization
+- Session counter tracking
+- Mode switching functionality
+- Clean and responsive UI
+- Custom favicon and PWA-ready manifest setup
+- Optimized production build via Vite
 
 ---
 
-# 🎨 App Icon & Favicon Setup
+## Tech Stack
 
-To create a professional, installable web app icon:
-
-1. Designed the base 1024×1024 icon using **Canva**
-2. Generated all required favicon and PWA files using:
-
-👉 https://realfavicongenerator.net/
-
-This ensured:
-- Proper Android support
-- iOS home screen support
-- Web app manifest compatibility
-- Multi-resolution favicon setup
-- Production-ready configuration
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS
+- Node.js & npm
+- ESLint
 
 ---
 
-# ✨ Features Implemented
-
-- Focus / Short Break / Long Break modes
-- Separate timers for each mode
-- Customizable durations
-- Start / Pause / Reset controls
-- Circular animated progress ring
-- Dark / Light mode toggle
-- Local storage persistence
-- Professional hover effects
-- Responsive layout
-- Progressive Web App (PWA) ready
-
----
-
-# 💾 Local Storage Implementation
-
-The app stores:
-
-- Dark mode preference
-- Custom focus duration
-- Custom short break duration
-- Custom long break duration
-
-This ensures:
-- Settings persist after refresh
-- Professional user experience
-- No backend required
-
----
-
-# 📁 Complete Project Structure
+## Project Structure
 
 ```
 focusflow/
@@ -191,64 +125,79 @@ focusflow/
 
 ---
 
-# 🛠 Tech Stack
+## Getting Started
 
-- React
-- Vite
-- Tailwind CSS
-- Framer Motion
-- Lucide React Icons
-- Local Storage API
-- Progressive Web App Manifest
+### 1. Clone the Repository
 
----
+```bash
+git clone https://github.com/yourusername/focusflow.git
+cd focusflow
+```
 
-# 🧪 Available Commands
+### 2. Install Dependencies
 
-Install dependencies:
 ```bash
 npm install
 ```
 
-Start development:
+### 3. Start Development Server
+
 ```bash
 npm run dev
 ```
 
-Build for production:
+### 4. Build for Production
+
 ```bash
 npm run build
 ```
 
-Preview production build:
+### 5. Preview Production Build
+
 ```bash
 npm run preview
 ```
 
 ---
 
-# 🌗 Progressive Web App Support
+## Favicon & Branding
 
-FocusFlow includes:
+Custom favicon and platform icons were created using:
 
-- Web App Manifest
-- Android-compatible icons
-- Apple touch icon
-- Multi-resolution favicon setup
+- Canva (icon design)
+- https://realfavicongenerator.net/ (multi-platform favicon generation)
 
-This allows:
-- “Add to Home Screen” on mobile
-- Installable web app experience
-- Native-like appearance
+This ensures compatibility across:
 
----
-
-# 👩‍💻 Author
-
-Designed & Developed by Deepti M. © 2026
+- Desktop browsers
+- Android devices
+- iOS devices
+- Progressive Web App environments
 
 ---
 
-# 📄 License
+## Deployment
 
-MIT License
+The project is deployed using Vercel.
+
+Deployment process:
+
+1. Push repository to GitHub
+2. Import project into Vercel
+3. Deploy with default Vite configuration
+
+---
+
+## Development Highlights
+
+- Modular component architecture
+- Custom hook for timer logic abstraction
+- Clean state management patterns
+- Scalable folder structure
+- Production-ready asset configuration
+
+---
+
+## License
+
+This project is open-source and available for educational and personal use.
